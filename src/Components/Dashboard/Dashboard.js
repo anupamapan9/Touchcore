@@ -1,17 +1,16 @@
 import React from 'react';
 import SideBar from '../SideBar/SideBar';
+import Profile from './Profile';
 
 const Dashboard = () => {
     return (
-        <section className='bg-gray-200 p-1 flex'>
+        <section className=' flex'>
             <SideBar />
             <div className='flex'>
-                <div>
-                    asfjksagblfsa
-                </div>
-                <div>
+                <Profile />
+                {/* <div>
                     sdfjsagb
-                </div>
+                </div> */}
             </div>
         </section>
     );
